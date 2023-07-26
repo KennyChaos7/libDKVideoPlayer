@@ -147,8 +147,8 @@ public class BaseVideoView<P extends AbstractPlayer> extends FrameLayout
         TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.BaseVideoView);
         mEnableAudioFocus = a.getBoolean(R.styleable.BaseVideoView_enableAudioFocus, mEnableAudioFocus);
         mIsLooping = a.getBoolean(R.styleable.BaseVideoView_looping, false);
-        mCurrentScreenScaleType = a.getInt(R.styleable.BaseVideoView_screenScaleType, mCurrentScreenScaleType);
-        mPlayerBackgroundColor = a.getColor(R.styleable.BaseVideoView_playerBackgroundColor, Color.BLACK);
+        mCurrentScreenScaleType = a.getInt(R.styleable.BaseVideoView_screenSType, mCurrentScreenScaleType);
+        mPlayerBackgroundColor = a.getColor(R.styleable.BaseVideoView_playerBGColor, Color.BLACK);
         a.recycle();
 
         initView();

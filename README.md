@@ -1,6 +1,7 @@
-# DKVideoPlayer
+# LibDKVideoPlayer
 A video player for Android.
-
+> fork 源码
+## **已经在gradle8.0下编译完成**
 ![Maven Central](https://img.shields.io/maven-central/v/xyz.doikki.android.dkplayer/dkplayer-java)
 [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16)
 

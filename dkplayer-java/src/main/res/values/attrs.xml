@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="looping" format="boolean|reference"/>
+    <attr name="enableAudioFocus" format="boolean|reference"/>
+    <attr name="screenSType" format="dimension">
+        <enum name="type_default" value="0"/>
+        <enum name="type_16_9" value="1"/>
+        <enum name="type_4_3" value="2"/>
+        <enum name="type_match_parent" value="3"/>
+        <enum name="type_original" value="4"/>
+        <enum name="type_center_crop" value="5"/>
+    </attr>
+    <attr name="playerBGColor" format="reference|color"/>
+
+
     <declare-styleable name="BaseVideoView">
-        <attr name="looping" format="boolean"/>
-        <attr name="enableAudioFocus" format="boolean"/>
-        <attr name="screenScaleType" format="dimension">
-            <enum name="type_default" value="0"/>
-            <enum name="type_16_9" value="1"/>
-            <enum name="type_4_3" value="2"/>
-            <enum name="type_match_parent" value="3"/>
-            <enum name="type_original" value="4"/>
-            <enum name="type_center_crop" value="5"/>
-        </attr>
-        <attr name="playerBackgroundColor" format="color"/>
+        <attr name="looping"/>
+        <attr name="enableAudioFocus"/>
+        <attr name="screenSType"/>
+        <attr name="playerBGColor"/>
     </declare-styleable>
+
+    <declare-styleable name="VideoView">
+        <attr name="looping" />
+        <attr name="enableAudioFocus"/>
+        <attr name="screenSType"/>
+        <attr name="playerBGColor"/>
+    </declare-styleable>
+
+
 </resources>
